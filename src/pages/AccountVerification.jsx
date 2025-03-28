@@ -18,12 +18,12 @@ const AccountVerification = () => {
     
 
     return (
-        <div className="flex flex-col min-h-screen bg-[#F9FAFB]">
+        <div className="flex flex-col min-h-screen bg-[#001421]">
             <Header toggleSidebar={() => setSidebarOpen(!isSidebarOpen)} />
             <div className="container mx-auto flex flex-grow relative">
                 <Sidebar isOpen={isSidebarOpen} toggleSidebar={() => setSidebarOpen(false)} />
-                <div className="flex-1 bg-white p-6">
-                    <h2 className="text-2xl font-bold mb-6">Account Verification</h2>
+                <div className="flex-1 bg-[#002A45] mt-4 p-6">
+                    <h2 className="text-4xl font-bold text-white mb-6">Account Verification</h2>
 
                     {/* ✅ Verification Cards Section */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

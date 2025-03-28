@@ -9,16 +9,16 @@ const SuccessPage = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="flex flex-col min-h-screen bg-[#F9FAFB]">
+        <div className="flex flex-col min-h-screen bg-[#001421]">
             {/* Pass toggle function to Header */}
             <Header toggleSidebar={() => setSidebarOpen(!isSidebarOpen)} />
 
             <div className="container mx-auto flex flex-grow relative">
                 <Sidebar isOpen={isSidebarOpen} toggleSidebar={() => setSidebarOpen(false)} />
 
-                <div className="flex-1 flex flex-col items-center justify-center bg-white p-6 text-center">
-                    <h2 className="text-3xl font-bold text-green-600">Success!</h2>
-                    <p className="text-lg text-black font-semibold mt-2">
+                <div className="flex-1 flex flex-col items-center justify-center bg-[#002A45] mt-4 p-6 text-center">
+                    <h2 className="text-4xl font-bold text-green-600">Success!</h2>
+                    <p className="text-lg text-white font-semibold mt-2">
                         We've received your document for verification
                     </p>
                     <CheckCircle className="w-20 h-20 text-green-600 mt-6" />

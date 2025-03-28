@@ -21,14 +21,14 @@ const UploadPassport = ({ documentType }) => {
     };
 
     return (
-        <div className="flex flex-col min-h-screen bg-[#F9FAFB]">
+        <div className="flex flex-col min-h-screen bg-[#001421]">
             <Header toggleSidebar={() => setSidebarOpen(!isSidebarOpen)} />
             <div className="container mx-auto flex flex-grow relative">
                 <Sidebar isOpen={isSidebarOpen} toggleSidebar={() => setSidebarOpen(false)} />
 
-                <div className="flex-1 bg-white p-6 mt-4">
-                    <h2 className="text-2xl font-bold mb-2">Upload {documentType}</h2>
-                    <p className="text-gray-600 mb-6">
+                <div className="flex-1 bg-[#002A45] p-6 mt-4">
+                    <h2 className="text-2xl font-bold text-white mb-2">Upload {documentType}</h2>
+                    <p className="text-gray-300 mb-6">
                         We may also need the back of the document. If there is information on both sides, please make sure you upload both.
                     </p>
 
@@ -81,18 +81,10 @@ const UploadPassport = ({ documentType }) => {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-                        <input type="text" placeholder="Country of Issue" className="border rounded p-2 w-full" />
-                        <input type="text" placeholder="Place of Issue" className="border rounded p-2 w-full" />
-                        <input type="text" placeholder="Document No." className="border rounded p-2 w-full" />
-                        <input type="text" placeholder="Issuer" className="border rounded p-2 w-full" />
-                        <input type="date" className="border rounded p-2 w-full" placeholder="Issue Date" />
-                        <input type="date" className="border rounded p-2 w-full" placeholder="Expiry Date" />
-                    </div>
 
                     <div className="flex justify-between mt-6">
-                        <button className="border px-4 py-2 rounded" onClick={() => navigate("/account-verification")}>Back</button>
-                        <button className="bg-purple-600 text-white px-4 py-2 rounded" onClick={handleVerifyClick}>Verify</button>
+                        <button className="border border-[#E2FF54] text-white px-4 py-2 rounded" onClick={() => navigate("/account-verification")}>Back</button>
+                        <button className="bg-[#E2FF54] text-black px-4 py-2 rounded" onClick={handleVerifyClick}>Verify</button>
                     </div>
                 </div>
             </div>

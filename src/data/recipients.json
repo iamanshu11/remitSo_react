@@ -1,0 +1,13 @@
+[
+    { "name": "Mary Johnson", "country": "South Africa", "maskedNumber": "****7845" },
+    { "name": "Michael Smith", "country": "USA", "maskedNumber": "****1234" },
+    { "name": "Emily Davis", "country": "UK", "maskedNumber": "****5678" },
+    { "name": "David Brown", "country": "Canada", "maskedNumber": "****2345" },
+    { "name": "Sophia Wilson", "country": "Australia", "maskedNumber": "****7890" },
+    { "name": "Liam Martinez", "country": "Mexico", "maskedNumber": "****3456" },
+    { "name": "Olivia Taylor", "country": "Germany", "maskedNumber": "****9876" },
+    { "name": "Noah Anderson", "country": "France", "maskedNumber": "****6543" },
+    { "name": "Ava Thomas", "country": "India", "maskedNumber": "****4321" },
+    { "name": "James White", "country": "Japan", "maskedNumber": "****1111" }
+  ]
+  

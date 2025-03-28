@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Sorlock John",
+        "method": "Account Transfer",
+        "initials": "SJ",
+        "flag": "https://flagcdn.com/w320/ca.png"
+    },
+    {
+        "id": 2,
+        "name": "Emma Watson",
+        "method": "Bank Transfer",
+        "initials": "EW",
+        "flag": "https://flagcdn.com/w320/gb.png"
+    },
+    {
+        "id": 3,
+        "name": "Michael Scott",
+        "method": "Mobile Wallet",
+        "initials": "MS",
+        "flag": "https://flagcdn.com/w320/us.png"
+    },
+    {
+        "id": 4,
+        "name": "Lisa Ray",
+        "method": "Cash Pickup",
+        "initials": "LR",
+        "flag": "https://flagcdn.com/w320/ca.png"
+    },
+    {
+        "id": 5,
+        "name": "David Beckham",
+        "method": "Account Transfer",
+        "initials": "DB",
+        "flag": "https://flagcdn.com/w320/gb.png"
+    },
+    {
+        "id": 6,
+        "name": "Priya Sharma",
+        "method": "Mobile Wallet",
+        "initials": "PS",
+        "flag": "https://flagcdn.com/w320/in.png"
+    }
+]

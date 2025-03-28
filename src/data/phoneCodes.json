@@ -1,0 +1,18 @@
+[
+    {
+      "code": "IN",
+      "dial_code": "+91",
+      "flag": "https://flagcdn.com/w40/in.png"
+    },
+    {
+      "code": "US",
+      "dial_code": "+1",
+      "flag": "https://flagcdn.com/w40/us.png"
+    },
+    {
+      "code": "GB",
+      "dial_code": "+44",
+      "flag": "https://flagcdn.com/w40/gb.png"
+    }
+  ]
+  
